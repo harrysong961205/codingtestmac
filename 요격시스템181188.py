@@ -7,10 +7,8 @@ def solution(targets):
     while targets:
         poped = targets.popleft()
         if poped[0]<bef[1]:
-            #print(poped,bef)
             pass
         else:
             cnt+=1
-            #print(poped,bef, "change")
             bef = poped
     return cnt
